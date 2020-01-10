@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - stable
+    - '6'
+    - '4'
+deploy:
+    provider: heroku
+    api_key:
+        secure: r905aQMpddO4niH9wowX04THxNXs05h8U1FyByljgi1hijk7n3acC31/EOXd2mSXFG9OYyepyV5dcp+b3dG3t8fwKp8HIfdp7qFfuIltxqOvoYDwHDb5fgLnVqBlu/7SvQuVowhzBAhfRRDS5Pe8ddc9LXOwWo8c/4Y+36SReBA2hQZNFNBSAo4ddeyRGEVk82R5NjsYrvCgolYPwpvAZn9ODaZkxz0VKxqWUjDnqJzYRcC2RYerMCnRD2fIta0lkJEivoLOK04AOxfVXnxWAqoR/UoJdeb7saBk5EkgtiCuFIPSjy9gCth1H0vVg2s41XcMUsoQWnMy8+Lbu0CPdWKahHM5K6QGLmOKl7y6iO5ENcWS1iXl71WrRxY52XoRFQUYqbAoKzPdCje+IBof+XGfSySBoLMeotdtwPOkGKsyLPdlCuxr4gyKMvXrfdm8RZxB2irHWyuo5gEJF7jwdBREHjBlWafAhqLIQ0voFYL1KsfdSuMuM/1ITa4CuPC1gT2W58RvrYMTUKnSUjEkKNIOut6YCAyst5i0PTJa1aHvihbzcBP75XM3/+WWQKFEPqwvDbrNSgq1hVwASYPh7nuoIJGcem6rSsyqUJupNfoDmFJuQuODCUPrsX2pGfFxY5u0/sJxeg4hdccuY3IGpyHJOQ11BJqxFv5RJX2xcsM=
+    app: "Travis-Github-Heroku\nname:limitless-plains-74320"
+    on:
+        repo: GavinW93/Travis-Github-Heroku
